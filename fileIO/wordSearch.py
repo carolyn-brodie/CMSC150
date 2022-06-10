@@ -1,10 +1,9 @@
 def countWordsinSentence(sentence, word):
-    sentenceLst = sentence.split()
+    sentence_list = sentence.split()
     count = 0
-    for item in sentenceLst:
+    for item in sentence_list:
         if word == item:
             count += 1
     return count
 
 
- 
